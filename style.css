@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1 {
+    margin: 50px;
+}
+
+.container input {
+    height: 40px;
+    border-radius: 12px;
+    width: 200px;
+}
+
+#inputField {
+    padding-left: 10px;
+}
+
+#next-button {
+    font-size: large;
+    border-radius: 12px;
+    background-color: turquoise;
+    height: 30px;
+    width: 90px;
+    margin: 20px;
+}
